@@ -1,5 +1,41 @@
-.background{
-    height: 1024px;
-    width: 920px;
-    position:fixed;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+
+.background>img{
+    height: auto;
+    width: 100%;
+    position: fixed;
+}
+
+.img-full{
+    position: relative;
+    height: 50em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-avt{
+    width: 150px;
+    height: 200px;
+    margin-top: 100px;
+    padding-top: 0;
+}
+.img-avt>img{
+    width: 125px;
+    height: 200px;
+    margin-left:15px ;
+    margin-right:20px;
+    border-radius: 15px;
+}
+
+.img-avt:hover>img{
+    transform: scale(1.15) translateZ(0);
+    background-size: 200%;
 }
