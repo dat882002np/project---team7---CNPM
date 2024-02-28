@@ -26,16 +26,47 @@ body{
     height: 200px;
     margin-top: 100px;
     padding-top: 0;
+    padding-bottom: 250px;
 }
 .img-avt>img{
     width: 125px;
-    height: 200px;
+    height: 200px;  
     margin-left:15px ;
     margin-right:20px;
     border-radius: 15px;
 }
 
-.img-avt:hover>img{
+.content{
+    margin-top: 20px;
+  
+    display: none;
+}
+
+.img-avt:hover > img   {
     transform: scale(1.15) translateZ(0);
     background-size: 200%;
+    
+}
+
+.img-avt:hover > .content{
+    display: block;
+}
+h3 {
+    font-size: 20px; /* Cỡ chữ lớn hơn */
+    margin-bottom: 5px; /* Khoảng cách dưới */
+}
+
+
+i {
+    display: inline-block; /* Hiển thị như khối để có thể tùy chỉnh kích thước */
+    font-size: 18px; /* Cỡ chữ */
+}
+
+a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: #00fff7; /* Màu chữ */
+}
+
+a:hover {
+    color: #fff; /* Màu chữ khi hover */
 }
